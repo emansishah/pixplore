@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="UuE-Kn-Jke">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="KaushanScript-Regular.otf">
+            <string>KaushanScript-Regular</string>
+            <string>KaushanScript-Regular</string>
+        </mutableArray>
+        <mutableArray key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+        </mutableArray>
+        <mutableArray key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+            <string>Raleway-SemiBold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Sign Up View Controller-->
+        <scene sceneID="GGj-ol-Rpx">
+            <objects>
+                <viewController id="ZdP-3d-wwG" customClass="SignUpViewController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eV0-Ig-u30">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SignInBackground" id="Qg4-Yf-6A1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="1aA-3L-N3Y">
+                                <rect key="frame" x="202" y="229" width="69" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view alpha="0.45000000000000001" contentMode="scaleToFill" id="c8L-yd-iFj">
+                                <rect key="frame" x="47" y="229" width="68" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.75" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="bny-Ce-nP6">
+                                <rect key="frame" x="50" y="292" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.75" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" id="ETB-5j-m34">
+                                <rect key="frame" x="50" y="330" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" minimumFontSize="17" id="maz-Yb-10A">
+                                <rect key="frame" x="50" y="253" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.75" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" id="54H-OR-ELZ">
+                                <rect key="frame" x="166" y="253" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.75" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="aqg-y6-nEk">
+                                <rect key="frame" x="50" y="368" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.75" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" minimumFontSize="17" id="CAV-Be-31q">
+                                <rect key="frame" x="50" y="406" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pixplore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AyL-ZX-7oY">
+                                <rect key="frame" x="20" y="88" width="280" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KaushanScript-Regular" family="Kaushan Script" pointSize="55"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1s2-dd-lIQ">
+                                <rect key="frame" x="202" y="197" width="68" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="LOG IN">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="SIGN UP">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bg9-nx-krb">
+                                <rect key="frame" x="0.0" y="465" width="320" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.38431372549019605" green="0.69803921568627447" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="21"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmSignUp:" destination="ZdP-3d-wwG" eventType="touchUpInside" id="WfZ-dX-F8C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LTb-rG-vWd">
+                                <rect key="frame" x="47" y="197" width="68" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                <state key="normal" title="LOG IN">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signInPressed:" destination="ZdP-3d-wwG" eventType="touchUpInside" id="J7u-j2-y91"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ojl-Cb-3Kj"/>
+                    <connections>
+                        <outlet property="confirmPassword" destination="CAV-Be-31q" id="mVW-ac-DuW"/>
+                        <outlet property="email" destination="bny-Ce-nP6" id="CsQ-gx-1oc"/>
+                        <outlet property="firstName" destination="maz-Yb-10A" id="WLy-89-2iU"/>
+                        <outlet property="lastName" destination="54H-OR-ELZ" id="Y9z-Io-yWK"/>
+                        <outlet property="loginButton" destination="LTb-rG-vWd" id="k7l-RT-sv4"/>
+                        <outlet property="password" destination="aqg-y6-nEk" id="6Sh-m8-S4O"/>
+                        <outlet property="signUpButton" destination="1s2-dd-lIQ" id="ymr-dk-BO5"/>
+                        <outlet property="username" destination="ETB-5j-m34" id="ZjO-ef-dc1"/>
+                        <segue destination="ctt-7H-FoU" kind="modal" identifier="toSignIn" id="jI0-ZY-Ehq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BeW-Vw-vSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="79"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="HHo-Ch-cyO">
+            <objects>
+                <viewController title="Map" id="zWQ-Wb-EUP" customClass="MapTabController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j9R-BF-gcx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="PzB-qB-cmB">
+                                <rect key="frame" x="0.0" y="40" width="320" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Tg-pr-9yc">
+                                <rect key="frame" x="121" y="10" width="78" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" id="oWf-JV-KdS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2470588235" green="0.51764705879999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Title" id="Vrl-GD-8jq"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="Map Marker-25" id="0K5-c5-QZB"/>
+                    <connections>
+                        <outlet property="map" destination="PzB-qB-cmB" id="gO9-Em-HJB"/>
+                        <outlet property="navBar" destination="Vrl-GD-8jq" id="q96-1f-UQz"/>
+                        <segue destination="tY9-MX-gZh" kind="modal" identifier="mapToDetails" id="T9z-mh-bKR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wT7-5D-vbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-257" y="1528"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="pmQ-iW-yI6">
+            <objects>
+                <navigationController id="7lH-Pq-gRA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="XJi-uy-aSc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GN1-55-iQm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.24705882352941178" green="0.51764705882352935" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qCn-GY-eSe" kind="relationship" relationship="rootViewController" id="btO-9e-BmW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MzL-6j-oU6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-727" y="1589"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="K6T-8V-LMX">
+            <objects>
+                <viewController storyboardIdentifier="feedVC" id="qCn-GY-eSe" customClass="FeedViewController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eaz-ie-deg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="hRh-R2-fqA">
+                                <rect key="frame" x="0.0" y="128.5" width="414" height="585.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <edgeInsets key="layoutMargins" top="8" left="0.0" bottom="8" right="0.0"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Mac-vz-xgT">
+                                    <size key="itemSize" width="367" height="432"/>
+                                    <size key="headerReferenceSize" width="0.0" height="20"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="4pa-IH-XFs" customClass="FeedCollectionViewCell" customModule="Pixplore" customModuleProvider="target">
+                                        <rect key="frame" x="23.5" y="20" width="367" height="432"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="367" height="432"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" id="LQA-R2-b5y">
+                                                    <rect key="frame" x="23" y="0.0" width="320.5" height="329"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="916-Cm-64k">
+                                                    <rect key="frame" x="285" y="404" width="55" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="C0f-JJ-Lzb">
+                                                    <rect key="frame" x="23" y="359" width="65" height="65"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KHi-cK-9Ag">
+                                                    <rect key="frame" x="23" y="335" width="185" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NumSaves" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7oo-my-lbD">
+                                                    <rect key="frame" x="93" y="404" width="65" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Low Importance-96" id="hNB-LL-VNP">
+                                                    <rect key="frame" x="533.5" y="185" width="28" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pDI-4U-eW1">
+                                                    <rect key="frame" x="94" y="359" width="183" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uXu-Yq-rGo">
+                                                    <rect key="frame" x="191" y="404" width="58.5" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clock-25" id="dqZ-Bo-F1d">
+                                                    <rect key="frame" x="171" y="407" width="12" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Geo-fence-25" id="hqB-Uk-aYN">
+                                                    <rect key="frame" x="265" y="407" width="12" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Xrx-Ea-djJ">
+                                                    <rect key="frame" x="280" y="352" width="60" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.3529411764705882" green="0.7803921568627451" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" image="Download-96"/>
+                                                    <connections>
+                                                        <action selector="saveButtonPressed:" destination="4pa-IH-XFs" eventType="touchUpInside" id="rHs-Sv-oda"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="0.0" bottom="8" right="0.0"/>
+                                        <connections>
+                                            <outlet property="caption" destination="pDI-4U-eW1" id="YuD-ol-AHi"/>
+                                            <outlet property="daysAgoPosted" destination="uXu-Yq-rGo" id="5o7-r3-AeP"/>
+                                            <outlet property="distance" destination="916-Cm-64k" id="tMR-j0-TiC"/>
+                                            <outlet property="locationImage" destination="LQA-R2-b5y" id="iLT-XG-lB1"/>
+                                            <outlet property="numSaves" destination="7oo-my-lbD" id="6aO-uT-ruh"/>
+                                            <outlet property="profPicture" destination="C0f-JJ-Lzb" id="kCH-KR-z9i"/>
+                                            <outlet property="saveButton" destination="Xrx-Ea-djJ" id="fWW-VO-BLi"/>
+                                            <outlet property="userName" destination="KHi-cK-9Ag" id="Rxy-cX-HVo"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="MgA-X8-caM">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionReusableView>
+                            </collectionView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" id="Wbr-0C-jRZ">
+                                <rect key="frame" x="128" y="82.5" width="158" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Hot"/>
+                                    <segment title="New"/>
+                                </segments>
+                                <color key="tintColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="orderbySegmentButton:" destination="qCn-GY-eSe" eventType="valueChanged" id="WEN-Pd-oJ5"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feed" image="List Filled-25" id="W2k-fg-Zgw"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="RCT-WZ-Gst">
+                        <barButtonItem key="leftBarButtonItem" image="Search Filled-25" id="fFK-Z8-nLh">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="profileButton:" destination="qCn-GY-eSe" id="xWd-Ls-WL6"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Plus Math-25" id="Smu-ri-NbS">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="newButtonPressed:" destination="qCn-GY-eSe" id="lj4-f6-L3c"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="collectionView" destination="hRh-R2-fqA" id="34c-PU-8KP"/>
+                        <outlet property="currentNavigationItem" destination="RCT-WZ-Gst" id="bHU-nu-tPt"/>
+                        <outlet property="locationInfo" destination="RCT-WZ-Gst" id="g5f-dj-kvC"/>
+                        <outlet property="segmentView" destination="Wbr-0C-jRZ" id="5eX-Ta-HuB"/>
+                        <segue destination="jRt-yH-NJ0" kind="modal" identifier="upload" id="uYE-6r-017"/>
+                        <segue destination="tY9-MX-gZh" kind="modal" identifier="toDetails" id="CRg-UW-RHG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0MN-SM-e2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="273" y="836"/>
+        </scene>
+        <!--Upload View Contoller-->
+        <scene sceneID="wLL-Fq-Vfu">
+            <objects>
+                <viewController title="Upload View Contoller" id="jRt-yH-NJ0" customClass="UploadViewController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9zf-np-iUH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="da9-Fr-XjQ">
+                                <rect key="frame" x="0.0" y="663.5" width="414" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="21"/>
+                                <state key="normal" title="Post">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="postPicture:" destination="jRt-yH-NJ0" eventType="touchUpInside" id="vpG-LG-d6e"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="mtl-8P-DMN">
+                                <rect key="frame" x="7" y="136" width="400" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EOb-jt-F5L">
+                                <rect key="frame" x="0.0" y="60" width="414" height="58.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="21"/>
+                                <state key="normal" title="Upload Photo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="choosePicture:" destination="jRt-yH-NJ0" eventType="touchUpInside" id="huP-Pi-hpG"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" id="ZjB-1I-u9U">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2470588235" green="0.51764705879999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="UPLOAD" id="gAU-wX-mG4">
+                                        <barButtonItem key="leftBarButtonItem" image="Left Filled-50" id="GbW-xW-7d3">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <action selector="backFromUpload:" destination="jRt-yH-NJ0" id="79P-DT-AhT"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="28A-cN-pcu">
+                                <rect key="frame" x="0.0" y="556" width="414" height="73.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="captionTextView" destination="28A-cN-pcu" id="p9w-oG-1kw"/>
+                        <outlet property="navBar" destination="gAU-wX-mG4" id="po7-9e-y8E"/>
+                        <outlet property="postButton" destination="da9-Fr-XjQ" id="COc-G5-Zpm"/>
+                        <outlet property="uploadImage" destination="mtl-8P-DMN" id="5K6-lY-7cy"/>
+                        <segue destination="qCn-GY-eSe" kind="modal" identifier="backToFeed" id="QY6-p0-BJw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jBd-m1-NXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="719" y="836"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="jTd-0U-ZBp">
+            <objects>
+                <viewController id="tY9-MX-gZh" customClass="DetailsViewController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rjy-ll-CLv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="8zb-BR-r4t">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2470588235" green="0.51764705879999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="19"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Title" id="fea-Vd-09H">
+                                        <barButtonItem key="leftBarButtonItem" image="Left Filled-50" id="Qsy-uo-fcK">
+                                            <color key="tintColor" red="1" green="0.99454531290000003" blue="0.982736104" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="backFromDetails:" destination="tY9-MX-gZh" id="Tft-Uh-QEs"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" image="Flag 2 Filled-25" id="O3b-oh-PQ2">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="flagPressed:" destination="tY9-MX-gZh" id="d4A-7z-6tQ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="MAH-xK-4XF">
+                                <rect key="frame" x="0.0" y="44" width="414" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="nYo-PA-iL1">
+                                <rect key="frame" x="0.0" y="577" width="414" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="vor-cJ-wDz">
+                                <rect key="frame" x="5" y="496" width="64.5" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QXR-nb-X83">
+                                <rect key="frame" x="5" y="466" width="207" height="27.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NumSaves" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sf6-VJ-1yC">
+                                <rect key="frame" x="93" y="534" width="93" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4S1-js-2aU">
+                                <rect key="frame" x="194" y="534" width="80.5" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Geo-fence-25" id="j06-ft-dRr">
+                                <rect key="frame" x="318" y="541" width="12" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ed3-cR-cjn">
+                                <rect key="frame" x="80" y="496" width="250" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clock-25" id="MuG-nn-iAt">
+                                <rect key="frame" x="194" y="541" width="12" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PDW-Vu-QPS">
+                                <rect key="frame" x="318" y="534" width="88" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Lzw-Ra-Kes">
+                                <rect key="frame" x="337" y="466" width="69" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3529411764705882" green="0.7803921568627451" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="Download-96"/>
+                                <connections>
+                                    <action selector="savePressed:" destination="tY9-MX-gZh" eventType="touchUpInside" id="deB-Ha-ckf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Pxt-Sw-JXb">
+                                <rect key="frame" x="339" y="587" width="67" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="Paper Plane Filled-25"/>
+                                <connections>
+                                    <action selector="navigate:" destination="tY9-MX-gZh" eventType="touchUpInside" id="WKU-NW-ml8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="createdCaption" destination="Ed3-cR-cjn" id="TE5-j3-h9X"/>
+                        <outlet property="date" destination="4S1-js-2aU" id="fOU-Ca-56Q"/>
+                        <outlet property="distance" destination="PDW-Vu-QPS" id="OEL-rP-dkV"/>
+                        <outlet property="map" destination="nYo-PA-iL1" id="Pxy-6H-QFk"/>
+                        <outlet property="navBar" destination="fea-Vd-09H" id="S2e-Zf-qsW"/>
+                        <outlet property="navigateButton" destination="Pxt-Sw-JXb" id="I5O-vf-54C"/>
+                        <outlet property="picture" destination="MAH-xK-4XF" id="hwh-z7-DLB"/>
+                        <outlet property="profileImage" destination="vor-cJ-wDz" id="fka-Sl-CyD"/>
+                        <outlet property="saveButton" destination="Lzw-Ra-Kes" id="8QX-Gs-0IO"/>
+                        <outlet property="saves" destination="Sf6-VJ-1yC" id="k4y-at-za8"/>
+                        <outlet property="username" destination="QXR-nb-X83" id="QRi-iF-p9l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzs-Qg-qXq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="529" y="1612"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="fmb-5K-qDC">
+            <objects>
+                <viewController id="mnM-z4-u3d" customClass="SettingsViewController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MgI-To-Y9w">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="z5K-W1-m1Y">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2470588235" green="0.51764705879999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Title" id="nyX-iQ-sS7">
+                                        <barButtonItem key="leftBarButtonItem" image="Left Filled-50" id="ml8-b8-VK5">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="backPressed:" destination="mnM-z4-u3d" id="SuU-sr-da9"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Profile Picture" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bNA-sE-Spm">
+                                <rect key="frame" x="-10" y="61" width="341" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="I3G-LQ-0rY">
+                                <rect key="frame" x="48" y="156" width="225" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zxC-rE-41g">
+                                <rect key="frame" x="0.0" y="523" width="320" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.34393153457956138" blue="0.26120238380588723" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="21"/>
+                                <state key="normal" title="Log Out">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="logoutButton:" destination="mnM-z4-u3d" eventType="touchUpInside" id="Ing-VB-epX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nZP-kt-WPN"/>
+                    <connections>
+                        <outlet property="changePic" destination="bNA-sE-Spm" id="oaa-am-jpX"/>
+                        <outlet property="navBar" destination="nyX-iQ-sS7" id="rtT-bC-834"/>
+                        <outlet property="uploadImage" destination="I3G-LQ-0rY" id="etf-SH-12L"/>
+                        <segue destination="UuE-Kn-Jke" kind="modal" identifier="toInitial" id="E0J-wa-n7R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZFq-xN-0e1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1297" y="1001"/>
+        </scene>
+        <!--Saved-->
+        <scene sceneID="6hy-fl-yTF">
+            <objects>
+                <viewController title="Saved" id="R5l-f3-gnj" customClass="SavedViewController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BpE-aO-R35">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="4Ro-6f-gEp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.2470588235" green="0.51764705879999995" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Title" id="OvR-2B-iYx">
+                                        <barButtonItem key="rightBarButtonItem" image="Settings-25" id="4gB-KQ-52t">
+                                            <color key="tintColor" red="1" green="0.99454531290000003" blue="0.982736104" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mnM-z4-u3d" kind="modal" id="piV-Sy-S9Z"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="y9O-dC-9ew">
+                                <rect key="frame" x="0.0" y="45" width="320" height="523"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="0Sa-AX-ygI">
+                                    <size key="itemSize" width="165" height="165"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell1" id="QgB-xz-23c" customClass="SavedCollectionViewCell" customModule="Pixplore" customModuleProvider="target">
+                                        <rect key="frame" x="77.5" y="0.0" width="165" height="165"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="eUt-uT-5f2">
+                                                    <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <outlet property="savedImage" destination="eUt-uT-5f2" id="tBA-Br-XtR"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Saved" image="Download-25" id="6fj-Dz-xYY"/>
+                    <connections>
+                        <outlet property="collectionView" destination="y9O-dC-9ew" id="1F6-BX-tKW"/>
+                        <outlet property="navBar" destination="OvR-2B-iYx" id="yDY-Nq-CYU"/>
+                        <segue destination="tY9-MX-gZh" kind="modal" identifier="saveToDetail" id="6nG-09-L0k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gIj-pP-3na" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="1528"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="7U2-7K-Bj4">
+            <objects>
+                <tabBarController storyboardIdentifier="feedTaBVC" id="GfU-sY-b9x" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="1S4-09-uOP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7lH-Pq-gRA" kind="relationship" relationship="viewControllers" id="RPN-9u-DIH"/>
+                        <segue destination="zWQ-Wb-EUP" kind="relationship" relationship="viewControllers" id="W7a-O2-lEw"/>
+                        <segue destination="R5l-f3-gnj" kind="relationship" relationship="viewControllers" id="WYm-Wa-bQK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x9i-tR-bSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-577" y="505"/>
+        </scene>
+        <!--Initial View Controller-->
+        <scene sceneID="wXf-cC-wlZ">
+            <objects>
+                <viewController id="UuE-Kn-Jke" customClass="InitialViewController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SignInBackground" id="22z-w9-unq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <connections>
+                        <segue destination="ctt-7H-FoU" kind="modal" identifier="toLogin" modalTransitionStyle="crossDissolve" id="5uh-5G-d21"/>
+                        <segue destination="GfU-sY-b9x" kind="modal" identifier="toFeedFromInitial" modalTransitionStyle="crossDissolve" id="DAH-4N-3q0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Yd-jT-kdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-99" y="96"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="src-Uh-jAo">
+            <objects>
+                <viewController storyboardIdentifier="loginVC" id="ctt-7H-FoU" customClass="ViewController" customModule="Pixplore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pRM-8d-z7s">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SignInBackground" id="XbV-d8-a3w">
+                                <rect key="frame" x="-6" y="-10" width="326" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="cqa-3v-o7F">
+                                <rect key="frame" x="47" y="230" width="68" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view alpha="0.34999999999999998" contentMode="scaleToFill" id="FTq-b2-ePw">
+                                <rect key="frame" x="202" y="230" width="68" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="qIf-0L-wf9">
+                                <rect key="frame" x="44" y="198" width="68" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="LOG IN">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="LOG IN">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" metaFont="system" size="17"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" id="CVj-Sc-wL7">
+                                <rect key="frame" x="50" y="256" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="bu0-Mj-v5z">
+                                <rect key="frame" x="50" y="294" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Koc-Ch-xSe">
+                                <rect key="frame" x="0.0" y="465" width="320" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.38424612544794923" green="0.69643317114792669" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="21"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="logInPressed:" destination="ctt-7H-FoU" eventType="touchUpInside" id="MYh-sJ-1i7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MQJ-fo-FPj">
+                                <rect key="frame" x="202" y="198" width="68" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                <state key="normal" title="SIGN UP"/>
+                                <connections>
+                                    <action selector="signupClicked:" destination="ctt-7H-FoU" eventType="touchUpInside" id="nMg-bC-2g3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pixplore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Oxs-3k-Ou4">
+                                <rect key="frame" x="20" y="90" width="280" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KaushanScript-Regular" family="Kaushan Script" pointSize="55"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="XbV-d8-a3w" id="1Z8-3V-Ywe"/>
+                        <outlet property="loginButton" destination="qIf-0L-wf9" id="OaB-Dy-j2V"/>
+                        <outlet property="loginLine" destination="cqa-3v-o7F" id="j88-4m-MBg"/>
+                        <outlet property="passwordTextField" destination="bu0-Mj-v5z" id="Vbu-bE-PrJ"/>
+                        <outlet property="pixploreTitle" destination="Oxs-3k-Ou4" id="w6O-Ak-dMt"/>
+                        <outlet property="signUpButton" destination="MQJ-fo-FPj" id="H71-h8-Hmg"/>
+                        <outlet property="usernameTextField" destination="CVj-Sc-wL7" id="GCf-Kc-uCQ"/>
+                        <segue destination="ZdP-3d-wwG" kind="modal" identifier="toSignUp" id="41J-0a-iXj"/>
+                        <segue destination="GfU-sY-b9x" kind="modal" identifier="toTabBar" id="UI1-eB-LOS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HyV-5l-ybP" sceneMemberID="firstResponder"/>
+                <navigationItem id="jkg-5s-dJt">
+                    <nil key="title"/>
+                    <barButtonItem key="leftBarButtonItem" title="Item" image="Settings-25" id="buj-P4-Xyt">
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </barButtonItem>
+                    <rightBarButtonItems>
+                        <barButtonItem title="Item" image="Plus Math-25" style="plain" id="xEE-kK-d7o">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yEc-eN-8dp">
+                                <rect key="frame" x="279" y="9" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Plus Math-25 (1)"/>
+                                <connections>
+                                    <action selector="newButtonPressed:" destination="qCn-GY-eSe" eventType="touchUpInside" id="a7Q-OD-9o0"/>
+                                </connections>
+                            </button>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                        <barButtonItem style="plain" id="gVJ-rY-EvL">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="45Y-Cb-IQQ">
+                                <rect key="frame" x="111" y="4" width="160" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="19"/>
+                                <state key="normal" title="Berkeley, CA          ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </rightBarButtonItems>
+                </navigationItem>
+            </objects>
+            <point key="canvasLocation" x="294" y="96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Clock-25" width="25" height="25"/>
+        <image name="Download-25" width="25" height="25"/>
+        <image name="Download-96" width="48" height="48"/>
+        <image name="Flag 2 Filled-25" width="25" height="25"/>
+        <image name="Geo-fence-25" width="25" height="25"/>
+        <image name="Left Filled-50" width="25" height="25"/>
+        <image name="List Filled-25" width="25" height="25"/>
+        <image name="Low Importance-96" width="96" height="96"/>
+        <image name="Map Marker-25" width="25" height="25"/>
+        <image name="Paper Plane Filled-25" width="25" height="25"/>
+        <image name="Plus Math-25" width="25" height="25"/>
+        <image name="Plus Math-25 (1)" width="25" height="25"/>
+        <image name="Search Filled-25" width="25" height="25"/>
+        <image name="Settings-25" width="25" height="25"/>
+        <image name="SignInBackground" width="1438" height="807"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="QY6-p0-BJw"/>
+        <segue reference="CRg-UW-RHG"/>
+        <segue reference="DAH-4N-3q0"/>
+        <segue reference="5uh-5G-d21"/>
+    </inferredMetricsTieBreakers>
+</document>

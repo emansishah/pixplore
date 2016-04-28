@@ -1,0 +1,13 @@
+PODS:
+  - LocationPickerViewController (1.0.3)
+  - RNFrostedSidebar (0.1.1)
+
+DEPENDENCIES:
+  - LocationPickerViewController (~> 1.0)
+  - RNFrostedSidebar (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  LocationPickerViewController: 1912e170bf903351ef0e24a3185d7acce35f06fc
+  RNFrostedSidebar: 8621bab2f09315d4621e1af26c632aad86277f9c
+
+COCOAPODS: 0.39.0

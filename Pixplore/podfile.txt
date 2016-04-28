@@ -1,0 +1,5 @@
+platform :ios, ‘9.0’
+use_frameworks!
+target 'MyApp' do
+  pod 'PageMenu', '~> 1.2'
+end
